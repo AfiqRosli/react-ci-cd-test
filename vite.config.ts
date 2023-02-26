@@ -5,7 +5,4 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/react-ci-cd-test/",
-  build: {
-    outDir: "dist/react-ci-cd-test/",
-  },
 });
