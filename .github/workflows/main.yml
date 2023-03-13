@@ -21,7 +21,5 @@ jobs:
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
-        run: |
-          cd web
         with:
           folder: dist # The folder the action should deploy.
