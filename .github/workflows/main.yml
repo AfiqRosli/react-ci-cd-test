@@ -21,6 +21,7 @@ jobs:
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
+        run: |
+          cd web
         with:
-          branch: gh-pages
-          folder: ./web/dist # The folder the action should deploy.
+          folder: dist # The folder the action should deploy.
